@@ -1,0 +1,377 @@
+* {
+  margin: auto;
+padding: auto;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: white;
+  align-items: center;
+
+}
+.mesotypecontainer{
+top: 200%;
+position: absolute;
+width: 100%;
+height: 100%;
+}
+
+.mesotype{
+
+
+}
+.animate-in {
+    -webkit-animation: fadeIn .5s ease-in;
+    animation: fadeIn .5s ease-in;
+}
+
+.animate-out {
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+    opacity: 0;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.topbar {
+  width: 100%;
+
+top: 0;
+margin-top: 1%;
+position: absolute;
+}
+.para3container{
+  position: absolute;
+  top:200%;
+  left:-20%;
+}
+.para3{
+  position: relative;
+  width:30%;
+}
+.para2container{
+  position: absolute;
+  top:120%;
+  left: 50%;
+}
+.para2{
+  position: relative;
+  width:50%;
+}
+.sbothr{
+  position:absolute;
+  width: 100%;
+  top:220%;
+}
+.bothr{
+  position:absolute;
+  width: 100%;
+  top:175%;
+}
+.midhr{
+  position:absolute;
+  width: 100%;
+  top:104%;
+}
+.translatecontainer{
+  position: absolute;
+  top: 180%;
+  left: 60%;
+  height: 120%;
+
+}
+.translate{
+  position: relative;
+  width: 100%;
+}
+.trulogocontainer {
+  position: absolute;
+
+  margin-left: 0;
+  top: 0;
+  left: 5%;
+  z-index: 3;
+}
+
+.trulogo {
+  max-width: 100%;
+  float: left;
+  width: 10%;
+  object-fit: cover;
+  position: relative;
+  top:0px;
+}
+.trulogocontainer2 {
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+margin-top: 0%;
+z-index: 2;
+
+}
+
+.trulogo2 {
+  height: 10%;
+  width: 10%;
+}
+.icontainer {
+  align-items: center;
+  display: flex;
+  height: 20%;
+}
+
+.i {
+  width: 10%;
+  height: 10%;
+}
+
+.videocontainer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+width: 100%;
+height: 100%;
+
+}
+
+.video {
+  min-width: 10%;
+  min-height: 10%;
+  animation: video 0s linear 4.5s forwards;
+  opacity: 80%
+
+
+
+}
+
+.card {
+  width: 50%;
+  height: 50%;
+  flex-direction: column;
+  /* position: fixed; */
+  left: 20%;
+  STROKE: 1PT;
+  margin-left: 0%;
+  /* align-self: center; */
+  /* padding: 1%; */
+  left: 0;
+  z-index: 0;
+
+
+}
+.cardcontainer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  z-index: 0;
+  top: 110%;
+  width: 50%;
+  left: 10%;
+  height: 80%;
+  }
+
+
+
+.card span {
+position: absolute;
+top: 0;
+left: calc(100% / 91 * var(--i));
+width: calc(100% / 91);
+height: 100%;
+}
+
+.card img {
+  position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      pointer-events: none;
+      opacity: 0;
+}
+.navbar {
+  position: absolute;
+  margin-bottom: 10%;
+  width:100%;
+  height:20%;
+}
+
+.card img:nth-child(2),
+.card span:hover+img
+{
+  opacity: 1;
+}
+
+#div1 {
+  z-index: 1;
+
+}
+#div1:hover  .card{
+  pointer-events: none;
+
+  display: none;
+
+}
+
+.cuneiformheadcontainer {
+  position: absolute;
+  width: 100%;
+
+  top: 15%;
+  justify-content: flex-start;
+  right: 0%;
+  z-index: 1;
+}
+.chinaheadcontainer {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  justify-content: flex-start;
+  right: 0%;
+  z-index: 1;
+}
+.greeceheadcontainer {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  justify-content: flex-start;
+  right: 0%;
+  z-index: 1;
+}
+.greecehead {
+  width: 90%;
+  height: 50%;
+  position: relative;
+}
+.cuneiformhead {
+  width: 90%;
+  height: 50%;
+  position: relative;
+
+}
+.cuneiformhead {
+  width: 90%;
+  height: 50%;
+  position: relative;
+
+}
+
+.info {
+  position: relative;
+    max-width: 60%;
+    margin: 0;
+    min-width: 50%;
+
+}
+
+.infocontainer {
+  position: absolute;
+      width: 60%;
+      height: 50%;
+      display: flex;
+      left: 55%;
+      top: 120%;
+}
+
+.hr {
+
+
+  position: relative;
+  top: 40%;
+  color: black;
+  border-top: 5px solid black;
+
+}
+
+.hrcontainer {
+  position: absolute;
+    width: 30%;
+    top: 28%;
+    left:65%;
+
+}
+
+.togreekcon {
+  position: absolute;
+
+  right: 5%;
+  margin-right: 0;
+  top: 0;
+  z-index: 3;ri
+
+}
+
+.togreek {
+width:100%;
+  max-width: 100%;
+  float: left;
+  object-fit: cover;
+}
+
+video::-webkit-media-controls-panel {
+  background-image: linear-gradient(transparent, transparent) !important;
+}
+
+video::-webkit-media-controls-play-button {
+  color: black;
+}
+
+video::-webkit-media-controls-volume-slider {
+  color: black;
+}
+
+video::-webkit-media-controls-mute-button {
+  color: black;
+}
+
+video::-webkit-media-controls-timeline {
+  display: none;
+}
+
+video::-webkit-media-controls-current-time-display {}
+
+.icons {
+  width: 10%;
+}
+
+.birdcon {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 135%;
+  right: 0%;
+  left: 50%;
+}
+
+.bird {
+  width: 100%;
+  height: 100%;
+}
+
+.mesocontainer {
+  position: absolute;
+  top: 1%;
+  align-items: center;
+
+}
+
+.mesotitle {}
+
+* {
+  font-family: 'Roboto', sans-serif;
+
+  text-align: justify;
+}

@@ -1,0 +1,221 @@
+* {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.trulogocontainer {
+  position: absolute;
+  bottom: -50%;
+  margin-left: 0;
+  top: 0;
+  left: 5%;
+}
+
+.trulogo {
+  max-width: 100%;
+  float: left;
+  width: 10%;
+  object-fit: cover;
+}
+
+.icontainer {
+  align-items: center;
+  display: flex;
+  height: 20%;
+}
+
+.i {
+  width: 10%;
+  height: 10%;
+}
+
+.videocontainer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  min-width: 80%;
+ min-height: 80%;
+ top: 10%;
+}
+
+.video {
+  width: 100%;
+  height: 70%;
+  float: left;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.cardcontainer {
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  top: 100%;
+  justify-content: flex-start;
+  display: flex;
+  left: 25%;
+}
+
+.card span {
+  position: absolute;
+  top: 0;
+  left: calc(100% / 91 * var(--i));
+  width: calc(100% / 91);
+  height: 100%;
+}
+
+.card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.card img:nth-child(2),
+.card span:hover+img {
+  opacity: 1;
+}
+
+.cuncontainer {
+  position: absolute;
+  width: 20%;
+  top: 97%;
+  left: 38%;
+  justify-content: flex-start;
+}
+
+.cun {
+  width: 90%;
+  height: 30%;
+  left: 80%;
+  position: relative;
+  margin-top: 3%;
+}
+
+.cuninfo {
+  width: 750px;
+  height: 10%;
+  top: 15%;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: -30%;
+}
+
+.cuninfocon {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 25%;
+}
+
+.hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  width: 90%;
+  position: relative;
+  margin-right: 0;
+  min-width: 10%;
+  top: 70%;
+  right: 0;
+}
+
+.hrcontainer {
+  position: absolute;
+  width: 100%;
+  top: 18%;
+  right: -90%;
+  margin-right: 0;
+}
+
+.togreekcon {
+  position: absolute;
+  margin-right: 0%;
+  right: 0;
+  bottom: -50%;
+  margin-right: 0;
+  top: 0;
+}
+
+.togreek {
+
+  max-width: 100%;
+  float: left;
+  width: 300px;
+  object-fit: cover;
+}
+
+video::-webkit-media-controls-panel {
+  background-image: linear-gradient(transparent, transparent) !important;
+}
+
+video::-webkit-media-controls-play-button {
+  color: black;
+}
+
+video::-webkit-media-controls-volume-slider {
+  color: black;
+}
+
+video::-webkit-media-controls-mute-button {
+  color: black;
+}
+
+video::-webkit-media-controls-timeline {
+  display: none;
+}
+
+video::-webkit-media-controls-current-time-display {}
+
+.icons {
+  width: 10%;
+}
+
+.birdcon {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 135%;
+  right: 0%;
+  left: 50%;
+}
+
+.bird {
+  width: 100%;
+  height: 100%;
+}
+
+.mesocontainer {
+  position: absolute;
+  top: 0%;
+}
+
+.mesotitle {}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 110%;
+  text-align: justify;
+}
