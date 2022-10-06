@@ -1,5 +1,6 @@
-html, body {
+body {
   height: 100%;
+  margin: 8px;
 }
 
 .headercontainer {
@@ -19,9 +20,8 @@ html, body {
 
 .about {
   display: flex;
-  font-family: sans-serif;
-  justify-content: center;
-  margin: 0;
+    font-family: sans-serif;
+    justify-content: center;
 }
 
 .home {
@@ -81,7 +81,7 @@ h2 {
   top: 0;
   right: 0;
   color: black;
-  width: 15%;
+  width: 5%;
   text-align: center;
   text-decoration: none;
   font-size: 10px;
@@ -102,7 +102,7 @@ h2 {
   filter: invert(1);
   display: flex;
   color: white;
-  width: 15%;
+  width: 5%;
   font-size: 10px;
   height: 50px;
   border-radius: 20px;
@@ -164,17 +164,23 @@ li {
   list-style: none;
 }
 
-.title {
+h1.title {
   font-family: sans-serif;
   display: flex;
   justify-content: center;
   margin: 0;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 h1 {
   margin: 0;
   font-size: 30px;
   letter-spacing: -1px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin-right: 1%;
 }
 
 h2 {
@@ -188,6 +194,11 @@ h2 {
   height: 650px;
 }
 
+.postersword {
+  width: 460px;
+  height: 600px;
+}
+
 .poster2 {
   width: 460px;
   height: 650px;
@@ -199,11 +210,24 @@ ul {
 }
 
 .movingsword {
-  height: 650px;
+  height: 600px;
+    width: 460px;
 }
 
 .movingthey {
-  height: 650px;
+  height: 600px;
+      width: 460px;
+}
+
+.movingsept {
+  height: 465px;
+    width: 460px;
+}
+
+.movingqj {
+  height: 600px;
+width: 460px;
+margin-top: 1%;
 }
 
 #carousel {
@@ -211,8 +235,11 @@ ul {
       /* height: 100%; */
       background-color: white;
       overflow: auto;
-
       white-space: nowrap;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
 
 }
 
@@ -237,7 +264,7 @@ p {
 .sign {
   width: 20%;
   height: 20%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 
 
 }
@@ -254,3 +281,65 @@ video {
   align-items: center;
 
 }
+
+.imgdiv {
+  display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+div.sticky {
+  position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      display: flex;
+      padding: 20px;
+      font-size: 25px;
+      font-family: sans-serif;
+      margin-left: 1%;
+      font-weight: normal;
+      letter-spacing: -10%;
+      z-index: 150;
+      align-content: center;
+      flex-direction: row;
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+      align-items: center;
+}
+.bottom {
+  display: flex;
+    justify-content: space-between;
+}
+
+
+
+a {
+
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+
+  color: black;
+  text-decoration: underline;
+
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.bottom {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+  }

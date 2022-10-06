@@ -1,5 +1,6 @@
 body {
   background-color: white;
+  margin: 8px;
 }
 
 .cvcontainer {
@@ -20,7 +21,7 @@ body {
   top: 0;
   right: 0;
   color: black;
-  width: 15%;
+  width: 5%;
   text-align: center;
   text-decoration: none;
   font-size: 10px;
@@ -41,7 +42,7 @@ body {
   filter: invert(1);
   display: flex;
   color: white;
-  width: 15%;
+  width: 5%;
   text-align: center;
   text-decoration: none;
   font-size: 10px;
@@ -95,10 +96,13 @@ h2 {
   font-size: 40px;
   font-family: sans-serif;
   font-weight: bolder;
-  margin-bottom: 5%;
-  margin-top: 2%;
+  margin-bottom: 3%;
+  margin-top: 3%;
   letter-spacing: -2;
   text-align: justify;
+  line-height: 100%;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
 }
 
 p {
@@ -119,6 +123,7 @@ li {
   align-items: center;
   display: flex;
   width: 100%;
+  margin-top: 3%;
 }
 
 hr {
@@ -126,16 +131,22 @@ hr {
   padding: 0;
 }
 
-.subtitlecontainer {
+#subtitlecontainer {
   display: flex;
   width: 100%;
+  height: 100%;
   justify-content: center;
+  margin-top: 1%;
 }
 
-.subtitle {
+#subtitle {
   display: flex;
-  width: 50%;
+  width: 100%;
   animation: fadeIn 2s;
+  height: 100%;
+  border-radius: 100%;
+  opacity: 1;
+  align-items: center;
 }
 
 .conqcontainer {
@@ -326,10 +337,6 @@ hr {
   width: 500;
 }
 
-
-
-
-
 .sicontainer {
   display: flex;
   flex-direction: row-reverse;
@@ -392,18 +399,6 @@ hr {
 .si {
   width: 500;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .talltalescontainer {
   display: flex;
@@ -696,9 +691,6 @@ hr {
   width: 500;
 }
 
-
-
-
 .alonecontainer {
   display: flex;
   flex-direction: row-reverse;
@@ -757,8 +749,6 @@ hr {
   width: 500;
 }
 
-
-
 .wigcontainer {
   display: flex;
   flex-direction: row-reverse;
@@ -813,12 +803,9 @@ hr {
   justify-content: center;
 }
 
-.wig{
+.wig {
   width: 500;
 }
-
-
-
 
 .omrcontainer {
   display: flex;
@@ -874,14 +861,9 @@ hr {
   justify-content: center;
 }
 
-.omr{
+.omr {
   width: 500;
 }
-
-
-
-
-
 
 .heatcontainer {
   display: flex;
@@ -937,14 +919,9 @@ hr {
   justify-content: center;
 }
 
-.heat{
+.heat {
   width: 500;
 }
-
-
-
-
-
 
 .outcontainer {
   display: flex;
@@ -1005,13 +982,9 @@ hr {
   justify-content: center;
 }
 
-.out{
+.out {
   width: 500;
 }
-
-
-
-
 
 .smoothcontainer {
   display: flex;
@@ -1072,13 +1045,9 @@ hr {
   justify-content: center;
 }
 
-.smooth{
+.smooth {
   width: 500;
 }
-
-
-
-
 
 .cymaticcontainer {
   display: flex;
@@ -1139,13 +1108,9 @@ hr {
   justify-content: center;
 }
 
-.cymatic{
+.cymatic {
   width: 500;
 }
-
-
-
-
 
 .knowcontainer {
   display: flex;
@@ -1207,11 +1172,9 @@ hr {
   justify-content: center;
 }
 
-.know{
+.know {
   width: 500;
 }
-
-
 
 a {
   color: black;
@@ -1223,7 +1186,30 @@ a:hover {
 }
 
 .top {
-
   display: flex;
   justify-content: center;
+}
+
+.imgdiv {
+  display: flex
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 40px;
+  font-family: sans-serif;
+  margin-left: 1%;
+  font-weight: normal;
+  letter-spacing: -10%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
