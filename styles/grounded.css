@@ -23,6 +23,7 @@
   font-family: sans-serif;
   justify-content: center;
   margin: 0;
+  width: 70%;
 }
 
 .home {
@@ -80,27 +81,6 @@ p {
   height: 707px;
 }
 
-.cv {
-  font-family: sans-serif;
-  background-color: white;
-  position: absolute;
-  top: 0;
-  right: 0;
-  color: black;
-  width: 5%;
-  text-align: center;
-  text-decoration: none;
-  font-size: 10px;
-  height: 50px;
-  border-radius: 20px;
-  align-items: center;
-  display: flex;
-  font-weight: bolder;
-  border-width: 1.5px;
-  border-style: solid;
-  border-color: black;
-  margin: 1%;
-}
 
 .cv:hover {
   border-width: 1.5px;
@@ -220,24 +200,6 @@ height: 60%;
     justify-content: center;
 }
 
-div.sticky {
-  position: -webkit-sticky;
-      position: sticky;
-      top: 0;
-      display: flex;
-      padding: 20px;
-      font-size: 25px;
-      font-family: sans-serif;
-      margin-left: 1%;
-      font-weight: normal;
-      letter-spacing: -10%;
-      z-index: 150;
-      align-content: center;
-      flex-direction: row;
-      justify-content: flex-start;
-      flex-wrap: nowrap;
-      align-items: center;
-    }
 
 h1 {
   margin: 0;
@@ -265,4 +227,75 @@ a:hover {
     flex-direction: row;
     flex-wrap: nowrap;
 
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 1;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 100%;
+
+  }
+
+  .fa-linkedin {
+    background: #white;
+    color: black;
+  }
+
+  .fa-instagram {
+    background: #white;
+    color: black;
+  }
+
+  .iconcon {
+    display: flex;
+        justify-content: flex-end;
+        width: 100%;
+
+  }
+
+  .cv {
+    /* margin: 1%; */
+    */: ;
+    font-family: sans-serif;
+    background-color: white;
+    /* top: 0; */
+    /* right: 0; */
+    color: black;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    height: 50px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    font-weight: bolder;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: black;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-content: flex-end;
+  }
+
+
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 0px;
+    margin: 2%;
+    z-index: 1;
+    font-family: sans-serif;
+    margin-left: 1%;
+    font-weight: normal;
+    display: flex;
+    letter-spacing: -10%;
+    /* margin: 0; */
+    align-items: center;
   }

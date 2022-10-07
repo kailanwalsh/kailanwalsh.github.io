@@ -13,15 +13,17 @@ body {
   position: fixed;
 }
 
-.cv {
-  margin: 1%;
+
+
+.cv:hover {
+  /* margin: 1%; */
+  */: ;
   font-family: sans-serif;
   background-color: white;
-  position: absolute;
-  top: 0;
-  right: 0;
+  /* top: 0; */
+  /* right: 0; */
   color: black;
-  width: 5%;
+  width: 50px;
   text-align: center;
   text-decoration: none;
   font-size: 10px;
@@ -33,23 +35,10 @@ body {
   border-width: 1.5px;
   border-style: solid;
   border-color: black;
-}
-
-.cv:hover {
-  border-width: 1.5px;
-  border-style: solid;
-  border-color: white;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-content: flex-end;
   filter: invert(1);
-  display: flex;
-  color: white;
-  width: 5%;
-  text-align: center;
-  text-decoration: none;
-  font-size: 10px;
-  height: 50px;
-  border-radius: 20px;
-  align-items: center;
-  font-weight: bolder;
 }
 
 svg {
@@ -1198,11 +1187,16 @@ div.sticky {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  padding: 40px;
+  padding: 0px;
+  z-index: 1;
+  margin: 2%;
   font-family: sans-serif;
   margin-left: 1%;
   font-weight: normal;
+  display: flex;
   letter-spacing: -10%;
+  /* margin: 0; */
+  align-items: center;
 }
 
 a {
@@ -1212,4 +1206,60 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  height: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 100%;
+
+}
+
+.fa-linkedin {
+  background: #white;
+  color: black;
+}
+
+.fa-instagram {
+  background: #white;
+  color: black;
+}
+
+.iconcon {
+  display: flex;
+      justify-content: flex-end;
+      width: 100%;
+
+}
+
+.cv {
+  /* margin: 1%; */
+  font-family: sans-serif;
+  background-color: white;
+  /* top: 0; */
+  /* right: 0; */
+  color: black;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  height: 50px;
+  border-radius: 20px;
+  align-items: center;
+  display: flex;
+  font-weight: bolder;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: black;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-content: flex-end;
+}
+
+.name {
+  width: 100%;
 }
