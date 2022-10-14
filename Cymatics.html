@@ -8,15 +8,41 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
+    <div class="sticky" style="    display: flex;
+      align-content: center;
+      justify-content: center;
+      align-items: center;">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="Conqueer.html">Conqueer</a>
+        <a href="#">Cymatics</a>
+        <a href="Grounded.html">Grounded</a>
+        <a href="AT.html">Act Together</a>
+        <a href="talltales.html">Tall Tales</a>
+        <a href="metoo.html">#MeToo</a>
+        <a href="deepin.html">Deep Inside</a>
+        <a href="alone.html">Alone Zine</a>
+        <a href="wig.html">When It's Gone</a>
+        <a href="heat.html">Heat Death</a>
+        <a href="outhere.html">Out There</a>
+        <a href="knowing.html">Knowing Me, Knowing You</a>
 
+      </div>
 
+      <!-- Use any element to open the sidenav -->
+      <div class="opencon">
+      <span onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i><path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z"/></svg></div>
 
+  <div Id="main">
+        <div class="head">
+        <h1> Cymatics </h1>
+        <div class="aboutcontainer"><p  class="about"> University task to create a video based on a family story. </p> </div>
+        <a href="CV/CV.pdf" target="_blank" download> </a>
+        </div>
+      </div>
 
-
-    <div class="sticky"><h1> Cymatics </h1>  <p  class="about"> Motion graphic work and prints depicting sound in a visual nature.
-
- </p> <a href="CV/CV.pdf" target="_blank" download>
-   <div class="iconcon"> <a href="https://www.linkedin.com/in/kailan-walsh-a920621a6/" class="fa fa-linkedin"></a> <a href="https://www.instagram.com/kailanfx/" class="fa fa-instagram"></a></div>
+      <div class="iconcon"> <a href="https://www.linkedin.com/in/kailan-walsh-a920621a6/" class="fa fa-linkedin"></a> <a href="https://www.instagram.com/kailanfx/" class="fa fa-instagram"></a></div>
 
       <a href="CV/CV.pdf" target="_blank" download="" style="
     /* display: flex; */
@@ -92,6 +118,12 @@
     </div>
 
 
+      <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+
+
+      <div Id="main2">
+
+
 <div style="padding:56.25% 0 0 0;position:relative;">
   <iframe src="https://player.vimeo.com/video/730951920?h=0e59ab30c2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="margin-top: 1%;position:absolute;top:0;left:0;width:100%;height:80%;" title="CYMATIC"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
@@ -110,6 +142,22 @@
 
 <a href="index.html"> <div style="font-family: sans-serif; "class="name">Back</div> </a>
 <p style="font-family: sans-serif;" class="name"> Kailan Walsh </p>
+</div>
+</div>
+<script>
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.getElementById("main2").style.marginLeft = "250px";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+  document.getElementById("main2").style.marginLeft = "0";
+}  </script>
 
 </body>
 </html>
