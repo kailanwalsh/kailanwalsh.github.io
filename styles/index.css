@@ -1263,3 +1263,99 @@ a:hover {
 .name {
   width: 100%;
 }
+
+.row {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+    justify-content: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+flex: 25%;
+max-width: 25%;
+padding: 0 4px;
+}
+
+.column img {
+margin-top: 8px;
+vertical-align: middle;
+width: 100%;
+}
+
+.column video {
+margin-top: 8px;
+vertical-align: middle;
+width: 100%;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+.column {
+  flex: 50%;
+  max-width: 50%;
+}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column {
+  flex: 100%;
+  max-width: 100%;
+}
+
+.cv {
+  /* margin: 1%; */
+  font-family: sans-serif;
+  background-color: white;
+  /* top: 0; */
+  /* right: 0; */
+  color: black;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  height: 50px;
+  border-radius: 20px;
+  align-items: center;
+  display: flex;
+  font-weight: bolder;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: black;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-content: flex-end;
+}
+
+.name {
+  width: 100%;
+}
+
+.row {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+    justify-content: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+flex: 25%;
+max-width: 25%;
+padding: 0 4px;
+}
+
+.column img {
+margin-top: 8px;
+vertical-align: middle;
+width: 100%;
+}
+
+.column video {
+margin-top: 8px;
+vertical-align: middle;
+width: 100%;
+}

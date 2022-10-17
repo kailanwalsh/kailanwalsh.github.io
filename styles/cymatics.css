@@ -370,6 +370,7 @@ a:hover {
   #main {
     transition: margin-left .5s;
         padding: 0 20px;
+        width: 80%;
 
   }
 
@@ -390,7 +391,7 @@ a:hover {
     align-content: center;
     top: 0;
     width: 100%;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 
