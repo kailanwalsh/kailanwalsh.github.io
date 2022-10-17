@@ -72,12 +72,14 @@ svg {
 }
 
 h1 {
-  font-size: 100px;
   font-family: sans-serif;
-  letter-spacing: -9pt;
+  letter-spacing: -.9vw;
   margin-top: 1%;
   margin-bottom: 3%;
   font-weight: bolder;
+  font-size: calc(4vw + 4vh);
+
+
 }
 
 h2 {
