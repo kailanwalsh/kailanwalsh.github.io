@@ -98,7 +98,7 @@ h2 {
 
 p {
   font-family: sans-serif;
-  letter-spacing: -.5;
+
 }
 
 li {
@@ -141,14 +141,23 @@ hr {
 }
 
 .conqcontainer {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-content: center;
+    max-width: 120vw;
+    flex-wrap: nowrap;
+    margin: 0;
+    align-items: center;
 }
 
 .liconq {
   transition: margin-left ease 0.5s;
   left: 0;
+  font-size: 2em;
+  /* padding-right: 5vw; */
+  padding-left: 0;
+  width: 30vw;
 }
 
 .liconq:hover>.imgconq {
@@ -173,33 +182,38 @@ hr {
 }
 
 .conqabout {
-  left: 20%;
+left: 20%;
 }
 
 .conqaboutcontainer {
   display: flex;
-  flex-direction: row-reverse;
-  /* justify-content: center; */
-  /* padding-left: 10%; */
-  align-items: center;
-  /* flex-wrap: nowrap; */
-  /* height: 50%; */
-  min-height: 10%;
-  width: 50;
-  align-content: space-between;
-  left: 100%;
+      flex-direction: row-reverse;
+      justify-content: center;
+      /* padding-left: 10%; */
+      align-items: center;
+      /* flex-wrap: nowrap; */
+      /* height: 50%; */
+      min-height: 10%;
+      width: 10vw;
+      /* width: 20vw; */
+      align-content: space-between;
+      /* left: 100%; */
+
 }
 
 .conqinfo {
-  display: flex;
-  display: flex;
-  align-content: center;
-  flex-direction: column-reverse;
-  justify-content: center;
+      display: flex;
+      align-content: center;
+      width: 30vw;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      /* margin-left: 2vw; */
+      align-items: center;
 }
 
 .conq {
-  width: 500;
+  width: 30vw;
 }
 
 .ligrounded {
