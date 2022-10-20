@@ -1,3 +1,8 @@
+body {
+  height: 100%;
+  margin: 8px;
+}
+
 .headercontainer {
   display: flex;
   justify-content: center;
@@ -15,10 +20,9 @@
 
 .about {
   display: flex;
-  font-family: sans-serif;
-  justify-content: center;
-  margin: 0;
-  width: 100%;
+    font-family: sans-serif;
+    justify-content: center;
+    width: 500px;
 }
 
 .home {
@@ -60,11 +64,9 @@
   font-weight: bolder;
 }
 
-h1 {
+h2 {
+  font-family: sans-serif;
   margin: 0;
-  font-size: 30px;
-  letter-spacing: -5px;
-  width: 30%;
 }
 
 .cover {
@@ -74,20 +76,29 @@ h1 {
 
 
 .cv:hover {
-  border-width: 1.5px;
-  border-style: solid;
-  border-color: white;
-  filter: invert(1);
-  display: flex;
-  color: white;
-  width: 5%;
+  /* margin: 1%; */
+  */: ;
+  font-family: sans-serif;
+  background-color: white;
+  /* top: 0; */
+  /* right: 0; */
+  color: black;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
   font-size: 10px;
   height: 50px;
   border-radius: 20px;
   align-items: center;
+  display: flex;
   font-weight: bolder;
-  right: 0;
-  top: 0;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: black;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-content: flex-end;
+  filter: invert(1);
 }
 
 .home {
@@ -109,6 +120,7 @@ h1 {
   border-width: 1.5px;
   border-style: solid;
   border-color: black;
+
 }
 
 .home:hover {
@@ -141,50 +153,14 @@ li {
   list-style: none;
 }
 
-.title {
+h1.title {
   font-family: sans-serif;
   display: flex;
   justify-content: center;
   margin: 0;
+  position: -webkit-sticky;
+  position: sticky;
 }
-
-h1 {
-  margin: 0;
-  font-size: 30px;
-  letter-spacing: -1px;
-}
-
-ul {
-  padding: 0;
-  display: flex;
-}
-
-p {
-  font-size: 15px;
-}
-
-.atcon {
-display: flex;
-justify-content: center;
-}
-
-video {
-  height: 50%;
-  width: 20%;
-}
-
-.imgcon {
-  display: flex;
-  justify-content: center;
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-
-img {
-  width: 50%;
-  height: 50%;
-}
-
 
 h1 {
   margin: 0;
@@ -194,6 +170,135 @@ h1 {
   position: sticky;
   top: 0;
   margin-right: 1%;
+  font-family: sans-serif;
+}
+
+
+h2 {
+  display: inline-block;
+  font-family: sans-serif;
+  letter-spacing: -2px;
+}
+
+.poster1 {
+  width: 460px;
+  height: 650px;
+}
+
+.postersword {
+  width: 460px;
+  height: 600px;
+}
+
+.poster2 {
+  width: 460px;
+  height: 650px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.movingsword {
+  height: 505px;
+    width: 460px;
+}
+
+.movingthey {
+  height: 505px;
+      width: 460px;
+}
+
+.movingsept {
+  height: 465px;
+    width: 460px;
+}
+
+.movingqj {
+  height: 600px;
+width: 460px;
+margin-top: 1%;
+}
+
+#carousel {
+  width: 100%;
+      /* height: 100%; */
+      background-color: white;
+      overflow: auto;
+      white-space: nowrap;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+
+}
+
+#carousel .slide {
+  display: inline-block;
+}
+
+p {
+  font-size: 15px;
+  font-weight: normal;
+  letter-spacing: 0px;
+}
+
+.signdiv {
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.sign {
+  width: 20%;
+  height: 20%;
+  margin-bottom: 5%;
+
+
+}
+
+video {
+  width: 100%;
+  height: 100%;
+}
+
+.carouselcon {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+
+}
+
+.imgdiv {
+  display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+
+.bottom {
+  display: flex;
+    justify-content: space-between;
+}
+
+
+
+a {
+
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+
+  color: black;
+  text-decoration: underline;
+
 }
 
 a {
@@ -204,7 +309,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
 .bottom {
   display: flex;
     justify-content: space-between;
@@ -214,6 +318,7 @@ a:hover {
     flex-wrap: nowrap;
 
   }
+
 
   .fa {
     padding: 20px;
@@ -240,7 +345,7 @@ a:hover {
   .iconcon {
     display: flex;
         justify-content: flex-end;
-        width: 100%;
+        width: 90%;
 
   }
 
@@ -269,18 +374,235 @@ a:hover {
     align-content: flex-end;
   }
 
+
   div.sticky {
     position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    padding: 0px;
-    margin: 2%;
-    font-family: sans-serif;
-    margin-left: 1%;
-    z-index: 1;
-    font-weight: normal;
-    display: flex;
-    letter-spacing: -10%;
-    /* margin: 0; */
-    align-items: center;
+        position: sticky;
+        top: 0;
+        padding: 0px;
+        margin: 2%;
+        z-index: 1;
+        font-family: sans-serif;
+        margin-left: 1%;
+        font-weight: normal;
+        display: flex;
+        letter-spacing: -10%;
+        margin-bottom: 0;
+        /* margin: 0; */
+        /* align-items: center;*/  }
+
+  .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 35%;
+  padding: 0 10px;
+}
+
+.column img {
+  margin-top: 3%;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.column video {
+  margin-top: 0%;
+  vertical-align: middle;
+  width: 90%;
+  height: 30%;
+}
+
+.column video {
+  margin-top: 0%;
+  vertical-align: middle;
+  width: 90%;
+  height: 30%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
   }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      padding-top: 60px;
+      transition: 0.5s;}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+      padding: 0 20px;
+
+}
+
+#main2 {
+  transition: margin-left .5s;
+      padding: 0 20px;
+
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.head {
+  display: flex;
+  align-content: center;
+  top: 0;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.aboutcontainer {
+}
+
+.opencon {
+  display: flex;
+  align-content: center;
+  width: 8%;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1% 0 0;
+  height: 8%;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48 }
+
+  .imgcon {
+    display: flex;
+    justify-content: center;
+
+  }
+
+.atcon {
+  display: flex;
+  justify-content: center;
+}
+
+.anicon {
+
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+}
+
+.row {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+justify-content: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+flex: 25%;
+max-width: 35%;
+padding: 0 10px;
+}
+
+.column img {
+margin-top: 3%;
+vertical-align: middle;
+width: 100%;
+}
+
+.column video {
+margin-top: 0%;
+vertical-align: middle;
+width: 90%;
+height: 30%;
+}
+
+.column video {
+margin-top: 0%;
+vertical-align: middle;
+width: 90%;
+height: 30%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+.column {
+  flex: 50%;
+  max-width: 50%;
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column {
+  flex: 100%;
+  max-width: 100%;
+}
