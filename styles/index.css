@@ -1364,10 +1364,17 @@ padding: 0 4px;
 justify-content: center;
 }
 
+.row {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+justify-content: center;
+}
+
 /* Create four equal columns that sits next to each other */
 .column {
 flex: 25%;
-max-width: 25%;
+max-width: 35%;
 padding: 0 10px;
 }
 
@@ -1384,6 +1391,12 @@ width: 90%;
 height: 30%;
 }
 
+.column video {
+margin-top: 0%;
+vertical-align: middle;
+width: 90%;
+height: 30%;
+}
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
@@ -1400,7 +1413,6 @@ height: 30%;
   max-width: 100%;
 }
 }
-
 .cv {
   /* margin: 1%; */
   font-family: sans-serif;
@@ -1429,28 +1441,34 @@ height: 30%;
   width: 100%;
 }
 
-.row {
-display: flex;
-flex-wrap: wrap;
-padding: 0 4px;
-    justify-content: center;
+
+
+
+.image-gallery {
+  /* Mobile first */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-/* Create four equal columns that sits next to each other */
-.column {
-flex: 25%;
-max-width: 25%;
-padding: 0 4px;
+.image-gallery .column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.column img {
-margin-top: 8px;
-vertical-align: middle;
-width: 100%;
+.image-item img {
+  width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
 }
 
-.column video {
-margin-top: 8px;
-vertical-align: middle;
-width: 100%;
+img {
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .image-gallery {
+    flex-direction: row;
+  }
 }
