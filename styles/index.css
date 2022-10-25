@@ -1258,6 +1258,84 @@ justify-content: flex-end;
   width: 40vw;
       display: flex;}
 
+
+
+
+
+
+      .fuzecontainer {
+        display: flex;
+        flex-direction: row-reverse;
+        align-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        /* width: 100%; */
+        justify-content: center;
+      }
+
+      .lifuze {
+        transition: margin-left ease 0.5s;
+        left: 0;
+        font-size: 2em;
+        padding-left: 0.4em;}
+
+      .lifuze:hover>.imgfuze {
+        margin-left: 0px;
+        opacity: 100;
+        display: inline;
+        position: inherit;
+        vertical-align: middle;
+        padding-right: 10;
+        padding-top: 0;
+        padding-bottom: 0;
+        width: 50px;
+        -webkit-transition: all 1s ease;
+      }
+
+      .imgfuze {
+        z-index: 1;
+        /* left: -30; */
+        padding: 0;
+        margin-left: 0;
+        width: 0%;
+      }
+
+      .fuzeboutcontainer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        /* padding-left: 10%; */
+        align-items: center;
+        /* flex-wrap: nowrap; */
+        /* height: 50%; */
+        min-height: 10%;
+        width: 50;
+        align-content: space-between;
+        left: 100%;
+      }
+
+
+      .fuzeinfo {
+        display: flex;
+            display: flex;
+            width: 30vw;
+            align-content: center;
+            text-align: justify;
+            flex-direction: column-reverse;
+            justify-content: center;}
+
+      .fuze {
+        width: 40vw;
+            display: flex;
+          }
+
+
+
+
+
+
+
+
 a {
   color: black;
   text-decoration: none;
