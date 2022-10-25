@@ -391,55 +391,6 @@ a:hover {
         /* margin: 0; */
         /* align-items: center;*/  }
 
-  .row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-  justify-content: center;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 35%;
-  padding: 0 10px;
-}
-
-.column img {
-  margin-top: 3%;
-  vertical-align: middle;
-  width: 100%;
-}
-
-.column video {
-  margin-top: 0%;
-  vertical-align: middle;
-  width: 90%;
-  height: 30%;
-}
-
-.column video {
-  margin-top: 0%;
-  vertical-align: middle;
-  width: 90%;
-  height: 30%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
 
 
 
@@ -535,3 +486,46 @@ a:hover {
   'wght' 400,
   'GRAD' 0,
   'opsz' 48 }
+
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+  .image-gallery {
+    /* Mobile first */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+  }
+
+  .image-gallery .column {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .image-item img {
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+
+  .image-item video {
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+
+  img {
+    border-radius: 5px;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .image-gallery {
+      flex-direction: row;
+    }
+  }

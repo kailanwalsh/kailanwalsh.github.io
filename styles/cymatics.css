@@ -307,9 +307,6 @@ a:hover {
     align-content: flex-end;
   }
 
-  .name {
-    width: 100%;
-  }
 
   div.sticky {
     position: -webkit-sticky;
@@ -324,6 +321,7 @@ a:hover {
     letter-spacing: -10%;
     /* margin: 0; */
     align-items: center;
+    z-index: 1;
   }
 
 
@@ -417,3 +415,44 @@ a:hover {
     'wght' 400,
     'GRAD' 0,
     'opsz' 48 }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+      .image-gallery {
+        /* Mobile first */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 80%;
+      }
+
+      .image-gallery .column {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .image-item img {
+        width: 100%;
+        border-radius: 5px;
+        object-fit: cover;
+      }
+
+      .image-item video {
+        width: 100%;
+        border-radius: 5px;
+        object-fit: cover;
+      }
+
+      img {
+        border-radius: 5px;
+      }
+
+      @media only screen and (min-width: 768px) {
+        .image-gallery {
+          flex-direction: row;
+        }
+      }
