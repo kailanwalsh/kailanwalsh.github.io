@@ -186,8 +186,17 @@ hr {
 
 .conqaboutcontainer {
   display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  /* padding-left: 10%; */
+  align-items: center;
+  /* flex-wrap: nowrap; */
+  /* height: 50%; */
+  min-height: 10%;
+  width: 50;
+  align-content: space-between;
+  left: 100%;
+
 
 }
 
@@ -1456,25 +1465,6 @@ max-width: 35%;
 padding: 0 10px;
 }
 
-.column img {
-margin-top: 3%;
-vertical-align: middle;
-width: 100%;
-}
-
-.column video {
-margin-top: 0%;
-vertical-align: middle;
-width: 90%;
-height: 30%;
-}
-
-.column video {
-margin-top: 0%;
-vertical-align: middle;
-width: 90%;
-height: 30%;
-}
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
@@ -1536,6 +1526,12 @@ height: 30%;
 }
 
 .image-item img {
+  width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.image-item video {
   width: 100%;
   border-radius: 5px;
   object-fit: cover;
