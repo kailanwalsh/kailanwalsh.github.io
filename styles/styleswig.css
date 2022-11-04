@@ -435,6 +435,13 @@ div.sticky {
     'opsz' 48
 }
 
+/* Create four equal columns that sits next to each other */
+.column {
+flex: 25%;
+max-width: 35%;
+padding: 0 10px;
+}
+
 .container {
   display: flex;
   flex-direction: row;
