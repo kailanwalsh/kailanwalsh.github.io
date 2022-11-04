@@ -497,8 +497,9 @@ a:hover {
 
   .image-gallery {
     /* Mobile first */
-    flex-direction: column;
-    gap: 10px;
+    display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
   }
 
   .image-gallery .column {
