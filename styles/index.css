@@ -1357,6 +1357,7 @@ a:hover {
 .top {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .imgdiv {

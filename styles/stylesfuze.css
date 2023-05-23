@@ -444,9 +444,7 @@ div.sticky {
   justify-content: center;
 }
 
-.aboutcontainer {
-  
-}
+.aboutcontainer {}
 
 .opencon {
   display: flex;
@@ -508,17 +506,75 @@ img {
   }
 }
 
-@media only screen and (min-width: 390px) {
+@media only screen
+
+/* Phone 13 mini, iPhone 12 mini, iPhone 11 Pro, iPhone Xs, and iPhone X  */
+and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   .sticky {
+    display: flex;
+    align-content: center;
+    top: 0;
+    width: 100%;
     flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+
+  .head {
+    display: flex;
+    align-content: center;
+    top: 0;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
     align-items: center;
+    margin-left: 10%;
   }
 
-  @media only screen and (min-width: 390px) {
-
-
-
+  #main {
+    padding: 0;
   }
+
+  .iconcon {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .cv {
+    position: ;
+    right: 3%;
+    top: 2%;
+  }
+
+  .about {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    /* right: 50%; */
+    /* left: 50%; */
+  }
+
+  .aboutcontainer {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 75vw;
+    LEFT: 50%;
+    right: 50%;
+    margin-right: -50vw;
+    margin-left: -15vw;
+  }
+
+  h1 {
+    margin-bottom: 0;
+  }
+}
+
 
   @media only screen
 
@@ -580,14 +636,157 @@ img {
       width: 75vw;
       LEFT: 50%;
       right: 50%;
-      margin-right: -80vw;
-      margin-left: -50vw;
+      margin-right: -50vw;
+      margin-left: -15vw;
     }
 
     h1 {
       margin-bottom: 0;
     }
-  .sidenav{
+  }
 
-  }
-  }
+
+
+    @media only screen
+
+    /* iphone XR and iphone 11 */
+    and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+      .sticky {
+        display: flex;
+        align-content: center;
+        top: 0;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+      }
+
+      .head {
+        display: flex;
+        align-content: center;
+        top: 0;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-left: 10%;
+      }
+
+      #main {
+        padding: 0;
+      }
+
+      .iconcon {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+
+      .cv {
+        position: ;
+        right: 3%;
+        top: 2%;
+      }
+
+      .about {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        /* right: 50%; */
+        /* left: 50%; */
+      }
+
+      .aboutcontainer {
+        display: flex;
+        justify-content: center;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 75vw;
+        LEFT: 50%;
+        right: 50%;
+        margin-right: -50vw;
+        margin-left: -15vw;
+      }
+
+      h1 {
+        margin-bottom: 0;
+      }
+    }
+
+    @media only screen
+
+    /* iphone SE   */
+    and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+      .sticky {
+        display: flex;
+        align-content: center;
+        top: 0;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+      }
+
+      .head {
+        display: flex;
+        align-content: center;
+        top: 0;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-left: 10%;
+      }
+
+      #main {
+        padding: 0;
+      }
+
+      .iconcon {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+
+      .cv {
+        position: ;
+        right: 3%;
+        top: 2%;
+      }
+
+      .about {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        /* right: 50%; */
+        /* left: 50%; */
+      }
+
+      .aboutcontainer {
+        display: flex;
+        justify-content: center;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 75vw;
+        LEFT: 50%;
+        right: 50%;
+        margin-right: -50vw;
+        margin-left: -15vw;
+      }
+
+      h1 {
+        margin-bottom: 0;
+      }
+    }
+
+
+    .class {
+
+      display: flex;
+    }
