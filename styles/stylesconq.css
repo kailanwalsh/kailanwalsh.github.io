@@ -3,6 +3,11 @@ body {
   margin: 8px;
 }
 
+p {
+  font-family: sans-serif;
+  
+}
+
 .headercontainer {
   display: flex;
   justify-content: center;

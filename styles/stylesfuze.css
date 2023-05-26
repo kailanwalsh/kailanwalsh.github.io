@@ -3,6 +3,10 @@ body {
   margin: 8px;
 }
 
+p {
+  font-family: sans-serif;
+}
+
 .headercontainer {
   display: flex;
   justify-content: center;
@@ -786,7 +790,9 @@ and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-r
     }
 
 
-    .class {
+    .topcon {
 
       display: flex;
+      width: 100%;
+
     }
