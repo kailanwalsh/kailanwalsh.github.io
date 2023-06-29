@@ -780,7 +780,15 @@ and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-r
     margin-bottom: 0;
   }
 
-  .anicon {
-    display: flex;
-    justify-content: flex-end;
-  }
+
+}
+.process {
+  display: flex;
+  justify-content: center;
+}
+
+.anicon {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
