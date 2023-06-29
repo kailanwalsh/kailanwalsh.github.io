@@ -1,6 +1,8 @@
 body {
   background-color: white;
   margin: 8px;
+  color: #1E23EA;
+
 }
 
 .cvcontainer {
@@ -19,7 +21,7 @@ body {
   /* margin: 1%; */
   */: ;
   font-family: sans-serif;
-  background-color: white;
+  background-color: blue;
   /* top: 0; */
   /* right: 0; */
   color: black;
@@ -34,11 +36,10 @@ body {
   font-weight: bolder;
   border-width: 1.5px;
   border-style: solid;
-  border-color: black;
+  border-color: blue;
   justify-content: flex-end;
   flex-direction: row;
   align-content: flex-end;
-  filter: invert(1);
 }
 
 svg {
@@ -107,6 +108,7 @@ li {
   padding: 50px;
   list-style: none;
   letter-spacing: -3;
+  color: blue;
 }
 
 .listcontainer {
@@ -1346,12 +1348,13 @@ justify-content: flex-end;
 
 
 a {
-  color: black;
+  color: blue;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+  color: blue;
 }
 
 .top {
@@ -1402,12 +1405,12 @@ a:hover {
 
 .fa-linkedin {
   background: #white;
-  color: black;
+  color: blue;
 }
 
 .fa-instagram {
   background: #white;
-  color: black;
+  color: blue;
 }
 
 .iconcon {
@@ -1417,29 +1420,6 @@ a:hover {
 
 }
 
-.cv {
-  /* margin: 1%; */
-  font-family: sans-serif;
-  background-color: white;
-  /* top: 0; */
-  /* right: 0; */
-  color: black;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 10px;
-  height: 50px;
-  border-radius: 20px;
-  align-items: center;
-  display: flex;
-  font-weight: bolder;
-  border-width: 1.5px;
-  border-style: solid;
-  border-color: black;
-  justify-content: flex-end;
-  flex-direction: row;
-  align-content: flex-end;
-}
 
 .name {
   width: 100%;
@@ -1484,27 +1464,28 @@ padding: 0 10px;
 }
 
 .cv {
-  /* margin: 1%; */
-  font-family: sans-serif;
-  background-color: white;
-  /* top: 0; */
-  /* right: 0; */
-  color: black;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 10px;
-  height: 50px;
-  border-radius: 20px;
-  align-items: center;
-  display: flex;
-  font-weight: bolder;
-  border-width: 1.5px;
-  border-style: solid;
-  border-color: black;
-  justify-content: flex-end;
-  flex-direction: row;
-  align-content: flex-end;
+  margin: 1%; */
+      font-family: sans-serif;
+      background-color: white;
+      /* top: 0; */
+      /* right: 0; */
+      color: blue;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 10px;
+      height: 50px;
+      border-radius: 20px;
+      align-items: center;
+      display: flex;
+      font-weight: bolder;
+      border-width: 1.5px;
+      border-style: solid;
+      border-color: blue;
+      justify-content: flex-end;
+      flex-direction: row;
+      align-content: flex-end;
+
 }
 
 .name {

@@ -1,6 +1,8 @@
 body {
   height: 100%;
   margin: 8px;
+  color: #1E23EA;
+
 }
 
 .headercontainer {
@@ -78,7 +80,7 @@ h2 {
   /* margin: 1%; */
   */: ;
   font-family: sans-serif;
-  background-color: white;
+  background-color: blue;
   /* top: 0; */
   /* right: 0; */
   color: black;
@@ -93,11 +95,10 @@ h2 {
   font-weight: bolder;
   border-width: 1.5px;
   border-style: solid;
-  border-color: black;
+  border-color: blue;
   justify-content: flex-end;
   flex-direction: row;
   align-content: flex-end;
-  filter: invert(1);
 }
 
 .home {
@@ -308,22 +309,22 @@ a:hover {
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 1;
   height: 10px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 100%;
+
 }
 
 .fa-linkedin {
   background: #white;
-  color: black;
+  color: blue;
 }
 
 .fa-instagram {
   background: #white;
-  color: black;
+  color: blue;
 }
 
 .iconcon {
@@ -333,28 +334,28 @@ a:hover {
 }
 
 .cv {
-  /* margin: 1%; */
-  */: ;
-  font-family: sans-serif;
-  background-color: white;
-  /* top: 0; */
-  /* right: 0; */
-  color: black;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 10px;
-  height: 50px;
-  border-radius: 20px;
-  align-items: center;
-  display: flex;
-  font-weight: bolder;
-  border-width: 1.5px;
-  border-style: solid;
-  border-color: black;
-  justify-content: flex-end;
-  flex-direction: row;
-  align-content: flex-end;
+  margin: 1%; */
+      font-family: sans-serif;
+      background-color: white;
+      /* top: 0; */
+      /* right: 0; */
+      color: blue;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 10px;
+      height: 50px;
+      border-radius: 20px;
+      align-items: center;
+      display: flex;
+      font-weight: bolder;
+      border-width: 1.5px;
+      border-style: solid;
+      border-color: blue;
+      justify-content: flex-end;
+      flex-direction: row;
+      align-content: flex-end;
+
 }
 
 div.sticky {
@@ -382,10 +383,11 @@ div.sticky {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #1E23EA;
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
+  color: #1E23EA;
 }
 
 /* The navigation menu links */
@@ -393,7 +395,7 @@ div.sticky {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: white;
   display: block;
   transition: 0.3s;
 }

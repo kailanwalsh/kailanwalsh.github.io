@@ -1,6 +1,7 @@
 body {
   height: 100%;
   margin: 8px;
+  color: #1E23EA;
 }
 
 .headercontainer {
@@ -474,7 +475,7 @@ div.sticky {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 80%;
+  width: 50%;
 }
 
 .image-gallery .column {
@@ -584,4 +585,3 @@ img {
     h1 {
       margin-bottom: 0;
     }
-  }

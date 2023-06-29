@@ -1,6 +1,8 @@
  body {
   height: 100%;
   margin: 8px;
+  color: #1E23EA;
+
 }
 
 .headercontainer {
@@ -91,20 +93,28 @@ h2 {
 
 
 .cv:hover {
-  border-width: 1.5px;
-  border-style: solid;
-  border-color: white;
-  filter: invert(1);
-  display: flex;
-  color: white;
-  width: 5%;
+  /* margin: 1%; */
+  */: ;
+  font-family: sans-serif;
+  background-color: blue;
+  /* top: 0; */
+  /* right: 0; */
+  color: black;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
   font-size: 10px;
   height: 50px;
   border-radius: 20px;
   align-items: center;
+  display: flex;
   font-weight: bolder;
-  right: 0;
-  top: 0;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: blue;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-content: flex-end;
 }
 
 .home {
@@ -263,28 +273,28 @@ a:hover {
   }
 
   .cv {
-    /* margin: 1%; */
-    */: ;
-    font-family: sans-serif;
-    background-color: white;
-    /* top: 0; */
-    /* right: 0; */
-    color: black;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 10px;
-    height: 50px;
-    border-radius: 20px;
-    align-items: center;
-    display: flex;
-    font-weight: bolder;
-    border-width: 1.5px;
-    border-style: solid;
-    border-color: black;
-    justify-content: flex-end;
-    flex-direction: row;
-    align-content: flex-end;
+    margin: 1%; */
+        font-family: sans-serif;
+        background-color: white;
+        /* top: 0; */
+        /* right: 0; */
+        color: blue;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 10px;
+        height: 50px;
+        border-radius: 20px;
+        align-items: center;
+        display: flex;
+        font-weight: bolder;
+        border-width: 1.5px;
+        border-style: solid;
+        border-color: blue;
+        justify-content: flex-end;
+        flex-direction: row;
+        align-content: flex-end;
+
   }
 
 
