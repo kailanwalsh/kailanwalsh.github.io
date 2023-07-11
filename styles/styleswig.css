@@ -319,12 +319,12 @@ a:hover {
 
 .fa-linkedin {
   background: #white;
-  color: black;
+  color: blue;
 }
 
 .fa-instagram {
   background: #white;
-  color: black;
+  color: blue;
 }
 
 .iconcon {
@@ -792,3 +792,17 @@ and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-r
         left: 0;
 
       }
+
+    }
+    .logo {
+      width: 60%;
+      height: 60%;
+      margin-bottom: 10%;
+      margin-top: 5%;
+
+    }
+
+    .logocontainer {
+      display: flex;
+      justify-content: center;
+    }

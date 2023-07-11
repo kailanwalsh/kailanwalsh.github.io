@@ -1,7 +1,8 @@
 body {
   height: 100%;
   margin: 8px;
-  color: #1E23EA;
+  color: red;
+  background-color: black;
 
 }
 
@@ -84,7 +85,7 @@ h2 {
   /* margin: 1%; */
   */: ;
   font-family: sans-serif;
-  background-color: blue;
+  background-color: red;
   /* top: 0; */
   /* right: 0; */
   color: black;
@@ -99,7 +100,7 @@ h2 {
   font-weight: bolder;
   border-width: 1.5px;
   border-style: solid;
-  border-color: blue;
+  border-color: red;
   justify-content: flex-end;
   flex-direction: row;
   align-content: flex-end;
@@ -324,12 +325,12 @@ a:hover {
 
 .fa-linkedin {
   background: #white;
-  color: blue;
+  color: red;
 }
 
 .fa-instagram {
   background: #white;
-  color: blue;
+  color: red;
 }
 
 .iconcon {
@@ -344,7 +345,7 @@ a:hover {
       background-color: white;
       /* top: 0; */
       /* right: 0; */
-      color: blue;
+      color: red;
       width: 50px;
       text-align: center;
       text-decoration: none;
@@ -356,10 +357,11 @@ a:hover {
       font-weight: bolder;
       border-width: 1.5px;
       border-style: solid;
-      border-color: blue;
+      border-color: red;
       justify-content: flex-end;
       flex-direction: row;
       align-content: flex-end;
+
 
 }
 
@@ -388,7 +390,7 @@ div.sticky {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #1E23EA;
+  background-color: red;
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
@@ -625,6 +627,7 @@ and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-r
       position: ;
       right: 3%;
       top: 2%;
+      color: red;
     }
 
     .about {

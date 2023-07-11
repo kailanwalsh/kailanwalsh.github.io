@@ -453,7 +453,10 @@ div.sticky {
 #main2 {
   transition: margin-left .5s;
   padding: 0 20px;
+display: none;
 }
+
+
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -814,4 +817,47 @@ and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-r
       h1 {
         margin-bottom: 0;
       }
+    }
+
+    .gifcontainer {
+      display: flex;
+      justify-content: center;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      -moz-animation: cssAnimation 0s ease-in 5s forwards;
+      /* Firefox */
+      -webkit-animation: cssAnimation 0s  ease-in 5s forwards;
+      /* Safari and Chrome */
+      -o-animation: cssAnimation 0s ease-in 5s forwards;
+      /* Opera */
+      animation: cssAnimation 0s ease-in 5s forwards;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+
+
+    }
+
+
+    @keyframes cssAnimation {
+        to {
+            width:0;
+            height:0;
+            overflow:hidden;
+            display:none;
+            margin-top: 0px;
+            margin-bottom: 0px;
+
+        }
+    }
+
+    @-webkit-keyframes cssAnimation {
+        to {
+            width:0;
+            height:0;
+            visibility:hidden;
+            display:none;
+            margin-top: 0px;
+            margin-bottom: 0px;
+
+        }
     }

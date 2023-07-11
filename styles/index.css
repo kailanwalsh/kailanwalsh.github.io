@@ -1529,3 +1529,33 @@ img {
     flex-direction: row;
   }
 }
+
+.aboutwrapper {
+
+}
+
+.aboutcontainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20%;
+}
+
+.about {
+  width: 50%;
+}
+
+
+@keyframes wipe-enter {
+	0% {
+		transform: scale(0, .025);
+	}
+	50% {
+		transform: scale(1, .025);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .about-animation {
+    animation: wipe-enter 1s 1;
+  }
+}

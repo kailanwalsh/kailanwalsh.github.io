@@ -2,6 +2,37 @@ $(window).scroll(function(){
     $(".sub").css("opacity", 1 - $(window).scrollTop() / 250);
   });
 
+
+  // Execute something when DOM is ready:
+  $(document).ready(function(){
+     // Delay the action by 10000ms
+     setTimeout(function(){
+        // Display the div containing the class "bottomdiv"
+        $("#main2").show();
+     }, 5000);
+  });
+
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const about = entry.target.querySelector('.about');
+
+      if (entry.isIntersecting) {
+        about.classList.add('about-animation');
+  	  return; // if we added the class, exit the function
+      }
+
+      // We're not intersecting, so remove the class!
+      about.classList.remove('about-animation');
+    });
+  });
+
+  observer.observe(document.querySelector('.about-wrapper'));
+
+
+
+
+
   function isScrolledIntoView(elem)
   {
       var docViewTop = $(window).scrollTop();
