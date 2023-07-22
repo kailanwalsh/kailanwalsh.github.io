@@ -832,3 +832,7 @@ and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-r
   display: flex;
 
 }
+
+.cdcontainer {
+  display: flex
+}
