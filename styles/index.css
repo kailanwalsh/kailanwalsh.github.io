@@ -1004,7 +1004,7 @@ justify-content: flex-end;
   padding-left: 0.4em;
 }
 
-.liout:hover>.imgout {
+.liout:hover>.sout {
   margin-left: 0px;
   opacity: 100;
   display: inline;
@@ -1508,21 +1508,7 @@ padding: 0 10px;
   gap: 10px;
 }
 
-.image-item img {
-  width: 100%;
-  border-radius: 5px;
-  object-fit: cover;
-}
 
-.image-item video {
-  width: 100%;
-  border-radius: 5px;
-  object-fit: cover;
-}
-
-img {
-  border-radius: 5px;
-}
 
 @media only screen and (min-width: 768px) {
   .image-gallery {
@@ -1559,3 +1545,60 @@ img {
     animation: wipe-enter 1s 1;
   }
 }
+
+.button {
+  background-color: grey;
+}
+
+
+
+
+
+
+
+.image-pic {
+  flex: 1 0 28%;
+  min-width: 200px;
+  cursor: pointer;
+}
+
+.image-pic img {
+  width: 100%;
+  object-fit: cover;
+  transition: transform 250ms cubic-bezier(0.79, 0.25, 0, 1.07);
+}
+
+.image-pic:is(:hover, :focus) img {
+  transform: scale(1.03);
+}
+
+
+.button {
+appearance: auto;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    font-optical-sizing: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    border: none; 
+  }

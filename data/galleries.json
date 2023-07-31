@@ -1,0 +1,170 @@
+[{
+    "name": "fol",
+    "images": [{
+        "src": "./imageshome/misc/fol1.png",
+        "alt": "banana"
+      },
+      {
+        "src": "./imageshome/misc/fol2.png",
+        "alt": "lemons"
+      },
+      {
+        "src": "./imageshome/misc/fol3.png",
+        "alt": "cherries"
+      },
+      {
+        "src": "./imageshome/misc/fol4.png",
+        "alt": "orange"
+      },
+      {
+        "src": "./imageshome/misc/fol5.png",
+        "alt": "melon"
+      },
+      {
+        "src": "./imageshome/misc/fol6.png",
+        "alt": "avacado"
+      },
+      {
+        "src": "./imageshome/misc/fol7.png",
+        "alt": "blueberries"
+      }
+    ]
+  },
+  {
+    "name": "roker",
+    "images": [{
+        "src": "./imageshome/misc/VINYL.png",
+        "alt": "Mountain scene"
+      },
+      {
+        "src": "./imageshome/misc/31.png",
+        "alt": "Mountain scene"
+      }
+    ]
+  },
+  {
+    "name": "Alone",
+    "images": [{
+        "src": "./imageshome/misc/cover.png",
+        "alt": "house plant"
+      },
+      {
+        "src": "./imageshome/misc/1.png",
+        "alt": "house plant"
+      },
+      {
+        "src": "./imageshome/misc/2.png",
+        "alt": "house plant"
+      },
+      {
+        "src": "./imageshome/misc/3.png",
+        "alt": "house plant"
+      },
+      {
+        "src": "./imageshome/misc/4.png",
+        "alt": "house plant"
+      }
+    ]
+  },
+  {
+    "name": "Heat",
+    "images": [{
+        "src": "./imageshome/misc/mock1.png",
+        "alt": "house plant"
+      },
+      {
+        "src": "./imageshome/misc/mock2.png",
+        "alt": "house plant"
+      },
+      {
+        "src": "./imageshome/misc/mock3.png",
+        "alt": "house plant"
+      },
+      {
+        "src": "./imageshome/misc/mock4.png",
+        "alt": "house plant"
+      },
+      {
+        "src": "./imageshome/misc/mock5.png",
+        "alt": "house plant"
+      },
+      {
+        "src": "./imageshome/misc/mock6.png",
+        "alt": "house plant"
+      },
+      {
+        "src": "./imageshome/misc/mock7.png",
+        "alt": "house plant"
+      },
+      {
+        "src": "./imageshome/misc/mock8.png",
+        "alt": "house plant"
+      }
+    ]
+  },
+  {
+    "name": "wig",
+    "images": [{
+        "src": "./imageshome/misc/mockup1.png",
+        "alt": "house plant"
+      },
+      {
+        "src": "./imageshome/misc/mockup2.png",
+        "alt": "house plant"
+      },
+      {
+        "src": "./imageshome/misc/mockup3.png",
+        "alt": "house plant"
+      },
+      {
+        "src": "./imageshome/misc/mockup4.png",
+        "alt": "house plant"
+      },
+      {
+        "src": "./imageshome/misc/mockup5.png",
+        "alt": "house plant"
+      },
+      {
+        "src": "./imageshome/misc/mockup6.png",
+        "alt": "house plant"
+      },
+      {
+        "src": "./imageshome/misc/mockup7.png",
+        "alt": "house plant"
+      },
+      {
+        "src": "./imageshome/misc/mockup8.png",
+        "alt": "house plant"
+      },
+      {
+
+        "src": "./imageshome/misc/mockup9.png",
+        "alt": "house plant"
+      }
+  ]
+},
+{
+    "name": "out",
+    "images": [{
+        "src": "./imageshome/misc/1out.png",
+        "alt": "house plant"
+      },
+      {
+        "src": "./imageshome/misc/2out.png",
+        "alt": "house plant"
+      },
+      {
+        "src": "./imageshome/misc/3out.png",
+        "alt": "house plant"
+      },
+      {
+        "src": "./imageshome/misc/4out.png",
+        "alt": "house plant"
+      },
+      {
+      "src": "./imageshome/misc/5out.png",
+      "alt": "house plant"
+}
+  ]
+}
+]
