@@ -35,10 +35,6 @@
     "images": [{
         "src": "./imageshome/misc/VINYL.png",
         "alt": "Mountain scene"
-      },
-      {
-        "src": "./imageshome/misc/31.png",
-        "alt": "Mountain scene"
       }
     ]
   },
