@@ -1528,8 +1528,15 @@ padding: 0 10px;
 
 .about {
   width: 50%;
+  font-size: 2vw;
+
 }
 
+@media screen and (max-width: 600px) {
+  .about {
+    font-size: 20px;
+  }
+}
 
 @keyframes wipe-enter {
 	0% {
@@ -1600,5 +1607,5 @@ appearance: auto;
     display: inline-block;
     text-align: center;
     align-items: flex-start;
-    border: none; 
+    border: none;
   }
