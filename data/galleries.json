@@ -97,32 +97,32 @@
   {
     "name": "wig",
     "images": [{
-        "src": "./imageshome/misc/mockup2.png",
+        "src": "./imageshome/misc/mockup2.jpg",
         "alt": "house plant"
       },
       {
-        "src": "./imageshome/misc/mockup3.png",
+        "src": "./imageshome/misc/mockup3.jpg",
         "alt": "house plant"
       },
       {
-        "src": "./imageshome/misc/mockup4.png",
+        "src": "./imageshome/misc/mockup4.jpg",
         "alt": "house plant"
       },
       {
-        "src": "./imageshome/misc/mockup6.png",
+        "src": "./imageshome/misc/mockup6.jpg",
         "alt": "house plant"
       },
       {
-        "src": "./imageshome/misc/mockup7.png",
+        "src": "./imageshome/misc/mockup7.jpg",
         "alt": "house plant"
       },
       {
-        "src": "./imageshome/misc/mockup8.png",
+        "src": "./imageshome/misc/mockup8.jpg",
         "alt": "house plant"
       },
       {
 
-        "src": "./imageshome/misc/mockup9.png",
+        "src": "./imageshome/misc/mockup9.jpg",
         "alt": "house plant"
       }
   ]
