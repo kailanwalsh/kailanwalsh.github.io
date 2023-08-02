@@ -1,27 +1,27 @@
 [{
     "name": "fol",
     "images": [{
-        "src": "./imageshome/misc/fol1.png",
+        "src": "./imageshome/misc/fol1.jpg",
         "alt": "banana"
       },
       {
-        "src": "./imageshome/misc/fol2.png",
+        "src": "./imageshome/misc/fol2.jpg",
         "alt": "lemons"
       },
       {
-        "src": "./imageshome/misc/fol4.png",
+        "src": "./imageshome/misc/fol4.jpg",
         "alt": "orange"
       },
       {
-        "src": "./imageshome/misc/fol5.png",
+        "src": "./imageshome/misc/fol5.jpg",
         "alt": "melon"
       },
       {
-        "src": "./imageshome/misc/fol6.png",
+        "src": "./imageshome/misc/fol6.jpg",
         "alt": "avacado"
       },
       {
-        "src": "./imageshome/misc/fol7.png",
+        "src": "./imageshome/misc/fol7.jpg",
         "alt": "blueberries"
       }
     ]
