@@ -97,10 +97,6 @@
   {
     "name": "wig",
     "images": [{
-        "src": "./imageshome/misc/mockup1.png",
-        "alt": "house plant"
-      },
-      {
         "src": "./imageshome/misc/mockup2.png",
         "alt": "house plant"
       },
