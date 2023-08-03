@@ -61,35 +61,35 @@
   {
     "name": "Heat",
     "images": [{
-        "src": "./imageshome/misc/mock1.png",
+        "src": "./imageshome/misc/mock1.jpg",
         "alt": "house plant"
       },
       {
-        "src": "./imageshome/misc/mock2.png",
+        "src": "./imageshome/misc/mock2.jpg",
         "alt": "house plant"
       },
       {
-        "src": "./imageshome/misc/mock3.png",
+        "src": "./imageshome/misc/mock3.jpg",
         "alt": "house plant"
       },
       {
-        "src": "./imageshome/misc/mock4.png",
+        "src": "./imageshome/misc/mock4.jpg",
         "alt": "house plant"
       },
       {
-        "src": "./imageshome/misc/mock5.png",
+        "src": "./imageshome/misc/mock5.jpg",
         "alt": "house plant"
       },
       {
-        "src": "./imageshome/misc/mock6.png",
+        "src": "./imageshome/misc/mock6.jpg",
         "alt": "house plant"
       },
       {
-        "src": "./imageshome/misc/mock7.png",
+        "src": "./imageshome/misc/mock7.jpg",
         "alt": "house plant"
       },
       {
-        "src": "./imageshome/misc/mock8.png",
+        "src": "./imageshome/misc/mock8.jpg",
         "alt": "house plant"
       }
     ]
