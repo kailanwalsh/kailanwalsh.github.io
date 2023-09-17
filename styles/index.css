@@ -1388,7 +1388,7 @@ a:hover {
   color: blue;
   padding: 1%;
   font-size: 80px;
-  margin-top: 3%;
+  margin-top: 0%;
 
 }
 
@@ -1465,10 +1465,15 @@ a:hover {
 
 
 .name {
-  width: 100%;
+  width: 5%;
+  height: 5%;
   font-family: 'ClashDisplay-Regular';
   margin-left: 1%;
 
+}
+
+.logo {
+  width: 10%;
 }
 
 .row {
@@ -1774,6 +1779,12 @@ form {
   margin: -0.512em auto;
   width: 80px;
   margin-bottom: 5%;
+}
+
+.underlinetop {
+  border-bottom: solid 2px blue;
+  margin: -0.512em auto;
+  width: 80px;
 }
 
 .icon_wrapper {
