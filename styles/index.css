@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  margin: 8px;
+  margin: 0;
   color: #1E23EA;
 
 }
@@ -75,7 +75,6 @@ svg {
 h1 {
   font-family: sans-serif;
   letter-spacing: -.9vw;
-  margin-top: 1%;
   margin-bottom: 3%;
   font-weight: bolder;
   font-size: calc(4vw + 4vh);
@@ -100,6 +99,8 @@ h2 {
 p {
   font-family: sans-serif;
   letter-spacing: -.5;
+  font-family: 'ClashDisplay-Regular';
+
 }
 
 li {
@@ -107,8 +108,14 @@ li {
   font-size: 40px;
   padding: 50px;
   list-style: none;
-  letter-spacing: -3;
+  letter-spacing: -1;
   color: blue;
+  font-family: 'ClashDisplay-semibold';
+}
+
+sup {
+font-style: italic;
+justify-content: flex-end;
 }
 
 .listcontainer {
@@ -119,9 +126,23 @@ li {
   margin-top: 3%;
 }
 
+.emphasize {
+  font-style: italic;
+  font-family: 'ClashDisplay-semibold';
+  font-size: 20pt;
+  vertical-align: super;
+
+}
+
+.emphasize2 {
+  font-style: italic;
+  font-family: 'ClashDisplay-semibold';
+}
+
 hr {
   width: 100%;
-  padding: 0;
+  padding: 1;
+  background-color: blue;
 }
 
 #subtitlecontainer {
@@ -140,6 +161,10 @@ hr {
   border-radius: 100%;
   opacity: 1;
   align-items: center;
+  font-size: 70pt;
+  font-family: 'ClashDisplay-Semibold', serif;
+  line-height: 65pt;
+
 }
 
 .conqcontainer {
@@ -1361,6 +1386,24 @@ a:hover {
   display: flex;
   justify-content: center;
   text-align: center;
+  font-family: 'ClashDisplay-semibold';
+  color: blue;
+  padding: 1%;
+  font-size: 80px;
+  margin-top: 3%;
+
+}
+
+.bot {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'ClashDisplay-semibold';
+  color: blue;
+  padding: 1%;
+  font-size: 30px;
+  margin-top: 3%;
+
 }
 
 .imgdiv {
@@ -1373,7 +1416,6 @@ div.sticky {
   top: 0;
   padding: 0px;
   z-index: 1;
-  margin: 2%;
   font-family: sans-serif;
   margin-left: 1%;
   font-weight: normal;
@@ -1381,6 +1423,8 @@ div.sticky {
   letter-spacing: -10%;
   /* margin: 0; */
   align-items: center;
+  background-color: white;
+  margin: 0;
 }
 
 a {
@@ -1423,6 +1467,9 @@ a:hover {
 
 .name {
   width: 100%;
+  font-family: 'ClashDisplay-Regular';
+  margin-left: 1%;
+
 }
 
 .row {
@@ -1464,7 +1511,7 @@ padding: 0 10px;
 }
 
 .cv {
-  margin: 1%; */
+
       font-family: sans-serif;
       background-color: white;
       /* top: 0; */
@@ -1485,6 +1532,7 @@ padding: 0 10px;
       justify-content: flex-end;
       flex-direction: row;
       align-content: flex-end;
+      margin-right: 1%;
 
 }
 
@@ -1529,6 +1577,8 @@ padding: 0 10px;
 .about {
   width: 50%;
   font-size: 2vw;
+  font-family: 'ClashDisplay-regular', serif;
+
 
 }
 
@@ -1609,3 +1659,299 @@ appearance: auto;
     align-items: flex-start;
     border: none;
   }
+
+  @font-face {
+    font-family: 'ClashDisplay-Semibold';
+    src: url('font2/fonts/ClashDisplay-Semibold.woff2') format('woff2'),
+         url('font2/fonts/ClashDisplay-Semibold.woff') format('woff'),
+         url('font2/fonts/ClashDisplay-Semibold.ttf') format('truetype');
+         font-weight: 600;
+         font-display: swap;
+         font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'ClashDisplay-Regular';
+    src: url('font2/fonts/ClashDisplay-Regular.woff2') format('woff2'),
+         url('font2/fonts/ClashDisplay-Regular.woff') format('woff'),
+         url('font2/fonts/ClashDisplay-Regular.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
+  }
+
+
+  @font-face {
+      font-family: 'behrensmeyervigesimalsw01Rg';
+      src: url('font1/behrensmeyer_vigesimals_w01_rg-webfont.woff2') format('woff2'),
+           url('font1/behrensmeyer_vigesimals_w01_rg-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+
+  }
+.accent {
+    font-family: 'snellroundhand-blackscript-webfont', serif;
+  }
+
+
+  h1 {
+    font-family: 'ClashDisplay-Semibold', serif;
+    letter-spacing: normal;
+    text-align: justify;
+    font-size: 100pt;
+    margin-bottom: 0;
+    line-height: 120px;
+
+  }
+
+  @font-face {
+      font-family: 'snellroundhand-blackscript-webfont';
+      src: url('font3/snellroundhand-blackscript-webfont.woff2') format('woff2'),
+           url('font3/snellroundhand-blackscript-webfont.woff2') format('woff');
+      font-weight: normal;
+      font-style: normal;
+
+  }
+
+.animabtcon {
+  display: flex;
+  justify-content: center;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input, select, textarea {
+  color: blue;
+  font: inherit;
+  margin: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+#container {
+  border: solid 3px blue;
+  max-width: 768px;
+  margin: 60px auto;
+  position: relative;
+
+}
+
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
+.formh1 {
+  color: blue;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+
+  font-family: 'ClashDisplay-semibold';
+
+}
+
+.underline {
+  border-bottom: solid 2px blue;
+  margin: -0.512em auto;
+  width: 80px;
+  margin-bottom: 5%;
+}
+
+.icon_wrapper {
+  margin: 50px auto 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  display: block;
+  fill: blue;
+  height: 50px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.email {
+	float: right;
+	width: 45%;
+  font-family: 'ClashDisplay-semibold';
+
+}
+
+input[type='text'], [type='email'], select, textarea {
+	background: none;
+  border: none;
+	border-bottom: solid 2px #474544;
+	color: blue;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+	outline: none;
+	padding: 0 0 0.875em 0;
+}
+
+.message {
+	float: none;
+  font-family: 'ClashDisplay-semibold';
+
+}
+
+.name {
+	float: left;
+	width: 45%;
+  font-family: 'ClashDisplay-semibold';
+
+}
+
+select {
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 100%;
+  font-family: 'ClashDisplay-semibold';
+
+}
+
+.telephone {
+  width: 100%;
+  font-family: 'ClashDisplay-semibold';
+
+}
+
+textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+	color: blue;
+}
+
+:-moz-placeholder {
+	color: blue;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	color: blue;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: blue;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px blue;
+  color: blue;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'ClashDisplay-semibold';
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: blue;
+  color: blue;
+
+}
+
+.container {
+  margin-bottom: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  .underline {
+    width: 68px;
+  }
+
+  #form_button {
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  .icon {
+    height: 35px;
+    width: 35px;
+  }
+
+  .underline {
+    width: 53px;
+  }
+
+  input[type='text'], [type='email'], select, textarea {
+    font-size: 0.875em;
+  }
+}
