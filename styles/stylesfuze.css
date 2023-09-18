@@ -603,9 +603,9 @@ and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-r
 
   .iconcon {
     display: flex;
-    justify-content: center;
-    width: 100%;
-    align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        align-items: center;
   }
 
   .cv {

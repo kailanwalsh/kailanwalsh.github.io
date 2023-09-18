@@ -394,14 +394,16 @@ div.sticky {
   position: sticky;
   top: 0;
   padding: 0px;
+  margin: 2%;
   z-index: 1;
   font-family: sans-serif;
   margin-left: 1%;
   font-weight: normal;
   display: flex;
   letter-spacing: -10%;
+  margin-bottom: 0;
   /* margin: 0; */
-  align-items: center;
+  /* align-items: center;*/
   background-color: white;
   margin: 0;
 }
@@ -552,6 +554,7 @@ and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-r
     justify-content: center;
     flex-wrap: nowrap;
     align-items: flex-start;
+    left: 0%;
   }
 
   .head {
@@ -602,15 +605,15 @@ and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-r
 
   .aboutcontainer {
     display: flex;
-    justify-content: center;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 75vw;
-    LEFT: 50%;
-    right: 50%;
-    margin-right: -50vw;
-    margin-left: -50vw;
+      justify-content: center;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      width: 75vw;
+      LEFT: 0%;
+      right: 50%;
+      margin-right: -50vw;
+      margin-left: -15vw;
   }
 
   h1 {
