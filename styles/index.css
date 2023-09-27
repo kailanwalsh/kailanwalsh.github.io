@@ -1376,7 +1376,7 @@ a:hover {
   padding: 1%;
   font-size: 80px;
   margin-top: 0%;
-  font-size: 8vw
+  font-size: 8vw;
 }
 
 .bot {
@@ -1876,6 +1876,10 @@ textarea {
 
 .container {
   margin-bottom: 10%;
+}
+
+.container2 {
+  margin-bottom: 5%;
 }
 
 @media screen and (max-width: 768px) {
